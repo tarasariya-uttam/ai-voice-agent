@@ -232,4 +232,5 @@ server.listen(PORT, () => {
   console.log(`   - /call?callerservice=vonage&pipeline=new_custom&llm=mistral&toNumber=+1234567890`);
   console.log(`   - /call?callerservice=vonage&pipeline=new_custom&llm=openai&toNumber=+1234567890`);
   console.log(`   - /call?callerservice=vonage&pipeline=elevenlabs&toNumber=+1234567890`);
+  console.log("Try any of this API with NGROK exposed api");
 }); 
